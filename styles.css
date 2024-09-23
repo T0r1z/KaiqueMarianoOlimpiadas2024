@@ -289,7 +289,7 @@ tbody tr:nth-child(even) {
 
     header {
         padding: 15px;
-        width: 80%;
+        width: 85%;
     }
     .text-box{
         width: 80%;
@@ -298,11 +298,11 @@ tbody tr:nth-child(even) {
         font-size: 2rem;
     }
     footer { 
-        width: 80%;
+        width: 85%;
     }
     main {
         padding: 15px;
-        width: 80%;
+        width: 85%;
     }
 }
 

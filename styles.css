@@ -84,7 +84,8 @@ main {
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    resize: none;
 }
 
 .contact-form button {

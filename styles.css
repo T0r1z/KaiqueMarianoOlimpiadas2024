@@ -306,11 +306,11 @@ tbody tr:nth-child(even) {
     }
 }
 
-
+/* Para telas de iPad (entre 768px e 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
         max-width: 100%;
-        padding: 0 4%; 
+        padding: 0 4%; /* Proporção ajustada */
     }
 
     nav ul {
@@ -323,9 +323,8 @@ tbody tr:nth-child(even) {
     }
 
     h1 {
-        font-size: 2.2rem; 
+        font-size: 2rem;
     }
-
     main {
         padding: 4%; 
     }
@@ -333,11 +332,10 @@ tbody tr:nth-child(even) {
 
 @media (min-width: 1025px) and (max-width: 1440px) {
     body {
-        max-width: 85%;
+        max-width: 90%;
         margin: auto;
-        padding: 0 3%; 
+        padding: 0 2%; 
     }
-
     nav ul {
         flex-direction: row;
         justify-content: space-around;
@@ -352,8 +350,6 @@ tbody tr:nth-child(even) {
     }
 
     main {
-        padding: 3%; 
+        padding: 2%;
     }
 }
-
-
